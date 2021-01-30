@@ -37,6 +37,6 @@ jobs:
         ls -al .
         head output.svg
     - name: neenjaw/compile-mermaid-markdown-action
-      uses: neenjaw/compile-mermaid-markdown-action@0.2.4dd
+      uses: neenjaw/compile-mermaid-markdown-action@0.2.4
     - name: Verify neenjaw/compile-mermaid-markdown-action
       run: ls -al .
