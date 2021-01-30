@@ -37,9 +37,12 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-    - name: Compile Mermaid Markdown
-      uses: neenjaw/compile-mermaid-markdown-action@0.2.4d
-    - name: Report
+    - name: Verify build
       run: |
-        ls -al .
         pwd
+        ls -al .
+        head output.svg
+    - name: neenjaw/compile-mermaid-markdown-action
+      uses: neenjaw/compile-mermaid-markdown-action@0.2.4dd
+    - name: Verify neenjaw/compile-mermaid-markdown-action
+      run: ls -al .

@@ -1,0 +1,17 @@
+{
+  "name": "edge-sites-plan",
+  "version": "0.1.0",
+  "description": "Development planning for Edge Sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mmdc -i diagram.mmd -o output.svg",
+    "watch": "watch 'rpm run build'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^8.9.0",
+    "watch": "^1.0.2"
+  }
+}
