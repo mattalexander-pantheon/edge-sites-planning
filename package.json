@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mmdc -i diagram.mmd -o output.svg",
-    "watch": "watch 'rpm run build'"
+    "watch": "watch 'rpm run build'",
+    "matt-push": "git add -A && git commit -m 'misc fixing' && git push personal"
   },
   "author": "",
   "license": "ISC",
