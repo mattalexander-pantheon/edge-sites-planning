@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mmdc -i diagram.md -o output.md",
     "watch": "watch 'rpm run build'",
-    "matt-push": "git add -A && git commit -m 'misc fixing' && git push personal"
+    "matt-push": "git add -A && git commit -m 'misc fixing' && git push origin"
   },
   "author": "",
   "license": "ISC",
