@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mmdc -i diagram.mmd -o output.svg",
+    "build": "mmdc -i diagram.md -o output.md",
     "watch": "watch 'rpm run build'",
     "matt-push": "git add -A && git commit -m 'misc fixing' && git push personal"
   },
